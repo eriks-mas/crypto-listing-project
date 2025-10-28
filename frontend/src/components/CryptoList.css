@@ -1,0 +1,30 @@
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.crypto-table th,
+.crypto-table td {
+  border: 1px solid #cbd5f5;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.crypto-table th {
+  background-color: #1e293b;
+  color: #e2e8f0;
+}
+
+.crypto-table tbody tr:nth-child(odd) {
+  background-color: #f1f5f9;
+}
+
+.crypto-table button {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

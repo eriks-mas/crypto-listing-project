@@ -1,0 +1,47 @@
+.crypto-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  border-radius: 8px;
+}
+
+.crypto-form__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.crypto-form label,
+.crypto-form textarea,
+.crypto-form input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.crypto-form input,
+.crypto-form textarea {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #334155;
+  background-color: #1e293b;
+  color: inherit;
+}
+
+.crypto-form button {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #38bdf8;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+.crypto-form__error {
+  color: #f87171;
+  margin: 0;
+}
